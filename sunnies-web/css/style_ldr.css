@@ -1,0 +1,94 @@
+/* fonts */
+.lato-light{ font-family: 'Lato', sans-serif; font-weight:300  }
+.lato-regular{ font-family: 'Lato', sans-serif; font-weight:400  }
+.lato-bold{ font-family: 'Lato', sans-serif; font-weight:700  }
+
+
+
+
+
+/*extra small*/
+@media screen and (min-width: 340px) {  
+    h1 {font-size: 2rem;}
+    h2 {font-size: 1.2rem;}
+    h3 {font-size: 0.9rem;}
+    p{ font-size: 0.5rem; }
+    .sunnies-inicio{font-size: 1.2em;}
+    .titulo-galeria-de-fotos{font-size: 1.2em;}
+    .align-middle{font-size: 1.1em;}
+    .nube{ width: 200px;}
+    .promociones{font-size: 1.2em;}
+  }
+
+/* Small devices (landscape phones, 544px and up) */
+@media screen and (min-width: 544px) {  
+    h1 {font-size: 2.1rem;}
+    h2 {font-size: 1.4rem;}
+    h3 {font-size: 0.8rem;}
+    p{ font-size: 0.8rem; }
+    .sunnies-inicio{ font-size:1.5em;}
+    .titulo-galeria-de-fotos{ font-size:1.5em;}
+    .align-middle{font-size: 1.4em;}
+    .nube{ width: 250px;}
+    .promociones{font-size: 1.5em;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media screen and (min-width: 768px) {  
+    h1 {font-size: 2.5rem;}
+    h2 {font-size: 1.5rem;}
+    h3 {font-size: 0.6rem;}
+    p{ font-size: 1rem; }
+    .sunnies-inicio{font-size:2em}
+    .titulo-galeria-de-fotos{font-size:2em}
+    .align-middle{font-size: 1.9em;}
+    .nube{ width: 300px;}
+    .promociones{font-size: 2em;}
+
+  }
+
+.logo {
+  width: 100px;
+}
+
+
+.inicio{
+  margin-bottom: 10%;
+}
+
+.sunnies-inicio{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.titulo-galeria{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.promociones{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin: 5%;
+}
+
+@keyframes nube {
+  0%, 100% {
+    transform: rotate(10deg);
+    }
+    50% {
+    transform: rotate(-10deg);
+    }
+}
+
+.nube {
+
+  animation-name:nube;
+  animation-duration: 15s;
+  animation-iteration-count:infinite;
+}
+
+.align-middle{
+  margin-top:5%;
+  font-family: 'Rajdhani', sans-serif;
+}
